@@ -1,7 +1,7 @@
 <template>
-    <div class="info-box">
-        <button class="info-close" @click="$emit('close')"><img src="../assets/close.png" alt="close button"></button>
-        <p class="citation"><strong>{{ citation.title }}</strong>, <em>{{ citation.artist }}</em>. {{ citation.year }}, {{ citation.culture }}. Source: <a :href="citation.permalink" :title="citation.source" target="_blank">{{ citation.source }}</a> </p>
+    <div class="info-box" @touchstart="tapClose">
+        <button class="info-close" @click="$emit('close')"><img :src="require('../assets/close.png')" alt="close"></button>
+        <p class="citation"><strong>{{ citation.title }}</strong>, <em>{{ citation.artist }}</em>. {{ citation.year }}, {{ citation.culture }}. Source: <a class="art-source" :href="citation.permalink" :title="citation.source" target="_blank">{{ citation.source }}</a> </p>
         <p>{{ citation.blurb}}</p>
     </div>
 </template>
@@ -10,6 +10,13 @@ export default {
     name: "InfoBox",
     props: {
         citation: Object,
+    },
+    methods: {
+        tapClose(event) {
+            // Only close it if you didn't click the link
+            if (!event.target.classList.contains("art-source"))
+                this.$emit('close');
+        }
     }
 }
 </script>
