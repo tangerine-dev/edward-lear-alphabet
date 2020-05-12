@@ -17,13 +17,13 @@
     
     <nav v-if="currentLetter">
       <div class="navigation">
-        <router-link :to="{name:'home'}"><img :src="require('./assets/home.png')" alt="home icon"></router-link>
+        <router-link :to="{name:'home'}"><img :src="require('./assets/home.png')" alt="home icon" class="lil-icon"></router-link>
         <router-link :to="{name:'about'}" class="text-link">about</router-link>
         <router-link 
         :disabled="currentLetter === 'A'" 
         :event="currentLetter !== 'A' ? 'click' : ''" 
         :style="currentLetter === 'A' ? 'cursor: default' : ''"
-        :to="{name:'alphabet-page', params: {letter:previousLetter}}"><img :src="require('./assets/arrow-left.png')" alt="left arrow"></router-link>
+        :to="{name:'alphabet-page', params: {letter:previousLetter}}"><img :src="require('./assets/arrow-left.png')" alt="left arrow" class="arrow"></router-link>
         <div class="spacer">
           <div class="current-letter">{{ currentLetter }}</div>
         </div>
@@ -31,9 +31,9 @@
         :disabled="currentLetter === 'Z'" 
         :event="currentLetter !== 'Z' ? 'click' : ''" 
         :style="currentLetter === 'Z' ? 'cursor: default' : ''" 
-        :to="{name:'alphabet-page', params: {letter:nextLetter}}"><img :src="require('./assets/arrow-right.png')" alt="right arrow"></router-link>
+        :to="{name:'alphabet-page', params: {letter:nextLetter}}"><img :src="require('./assets/arrow-right.png')" alt="right arrow" class="arrow"></router-link>
         <button @click="showInfo = !showInfo" class="info text-link">info</button>
-        <router-link :to="{name:'letter-menu'}"><img :src="require('./assets/menu.png')" alt="letter menu icon"></router-link>
+        <router-link :to="{name:'letter-menu'}"><img :src="require('./assets/menu.png')" alt="letter menu icon" class="lil-icon"></router-link>
       </div>
     </nav>
     <transition name="custom-classes-transition"
@@ -238,6 +238,18 @@ nav
 
     @media (min-width 375px)
       max-height 53%
+
+  img.lil-icon
+    max-width 18px
+
+    @media (min-width 900px)
+      max-width 24px
+
+  img.arrow
+    max-width 51px
+
+    @media (min-width 900px)
+      max-width 129px
 
   div.navigation
     background-color #e7e0d4
