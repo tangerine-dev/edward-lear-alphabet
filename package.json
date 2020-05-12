@@ -1,0 +1,59 @@
+{
+  "name": "edward-lear-alphabet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve && watch-stylus",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "compile-stylus": "stylus -c --include-css src/style.stylus -o dist/build.css",
+    "dev": "npm-run-all --parallel watchify watch-stylus serve",
+    "watch-stylus": "stylus -w --include-css src/style.stylus -o dist/build.css",
+    "watchify": "watchify -p browserify -e src/main.js -o dist/build.js"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "core-js": "^2.6.5",
+    "http-server": "^0.12.1",
+    "npm-run-all": "^4.1.5",
+    "pixi.js": "^5.2.1",
+    "splitting": "^1.0.6",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

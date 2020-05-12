@@ -1,0 +1,292 @@
+x Change loading mechanism
+x Change when text updates - event driven rather than frame
+x Make teeter and swing sprites use spring physics too
+x Add dedication page
+x Add menu button
+x Add panning to AlphabetPage item
+x Figure out math for when to allow panning
+x Infobox
+Implement panning offset inside art
+    x Particles
+    x Flippers
+    x Springers
+    x Beziers
+    x Watching
+Implement Haley art
+    x Re-crop thumbnails
+    x Add color classes
+    x Add sharing images
+    x Landing page
+    x Hint box
+    Letter Menu
+        x Scaling/Wrapping
+        x Borders and Color
+    x Mobile responsiveness
+    x New favicon
+    x Big letter for poems
+x Resizing...
+x Rewrite intro text
+x Add references
+x Update About text
+x Animate home page
+x Vertically center nav bar stuff
+x Larks aren't following
+x Poem Page doesn't go down enough on full size
+x Button location
+x Hourglass
+x Analytics
+x Swipe down on poem to make it go away
+Debounce on letter arrows
+x More reactive on touch screens
+x Close Poem animation
+x OG image width/height
+x Finish list
+
+Haley Feedback
+x I'd make the nav bar text on the Home page a lot smaller, it's pretty overpowering. (It looks bigger than the "An" and "Alphabet" text)
+x Along with that, bumping up the size of "An" "Alphabet" would help too.
+x The caption below the caricature in the About page gets a little lost with the body text wrapping below it. Maybe put them in different columns or something so the text doesn't wrap below it? 
+x The nav bar in the poem looks awesome!! I'd just bring it up off the bottom edge of the window a scotch if possible to let it breathe. (15-20 px?? It's hard to estimate haha)
+x Is it possible to make the first letter in the poems a bit bigger and more prominent? 
+
+
+Animation request from kids:
+Make ink bottle bob
+Make people in kites image walk
+
+
+
+Edward Lear Alphabet
+A was once an apple pie,
+Pidy
+Widy
+Tidy
+Pidy
+Nice insidy
+Apple Pie!
+Nicolaes Maes, Young Woman Peeling Apples (https://www.metmuseum.org/art/collection/search/436934)
+Clara Peeters, Mesa (Museo Nacional del Prado https://commons.wikimedia.org/wiki/File:Mesa_(Clara_Peeters).jpg)
+Robert Seaver, Ye butcher, ye baker, ye candlestick-maker, 1908 https://publicdomainreview.org/collection/ye-butcher-ye-baker-ye-candlestick-maker-1908
+
+B was once a little bear,
+Beary!
+Wary!
+Hairy!
+Beary!
+Taky cary!
+Little Bear!
+Unknown, Polar Bear (https://publicdomainreview.org/essay/darwin-s-polar-bear)
+
+C was once a little cake,
+Caky
+Baky
+Maky
+Caky
+Taky Caky,
+Little Cake!
+Raphaelle Peale, Still Life with Cake (https://www.metmuseum.org/art/collection/search/11737)
+
+
+D was once a little doll,
+ Dolly
+Molly
+Polly
+Nolly
+Nursy Dolly
+Little Doll!
+Allen & Ginter, From the Girls and Children Series (https://www.metmuseum.org/art/collection/search/422593)
+Jose Guadalupe Posada (https://www.metmuseum.org/art/collection/search/736068)
+
+E was once a little eel,
+Eely,
+Weely
+Peely
+Eely
+Twirly, Tweedy Little Eel!
+Seki Shuko, Eels (https://www.metmuseum.org/art/collection/search/54760)
+
+F was once a little fish,
+Fishy
+Wishy
+Squishy
+Fishy
+In a Dishy, Little Fish!
+Louis Renard, Fish (https://publicdomainreview.org/collection/images-from-the-first-colour-publication-on-fish-1754)
+
+
+G was once a little goose,
+Goosy
+Moosy
+Boosy
+Goosey
+Waddly-woosy
+Little Goose!
+Royal Porcelain Manufactory, Goose Seller (https://www.metmuseum.org/art/collection/search/207099)
+
+H was once a little hen,
+Henny
+Chenny
+Tenny
+Henny
+Eggsy-any, Little Hen?
+Kawabata Gyokusho, Cock and Hen (https://www.metmuseum.org/art/collection/search/54752)
+
+I was once a bottle of ink,
+Inky
+Dinky
+Thinky
+Inky
+Black Minky, Bottle of Ink!
+William Michael Harnett, The Banker's Table (www.metmuseum.org/art/collection/search/10994)
+
+J was once a jar of jam,
+Jammy
+Mammy
+Clammy
+Jammy
+Sweety-Swammy, Jar of Jam!
+Paul Cezanne, Ginger Jar (https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Ginger_Jar_(Pot_de_gingembre)_-_BF23_-_Barnes_Foundation.jpg)
+
+K was once a little kite,
+Kity
+Whity
+Flighty
+Kity
+Out of sighty-Little Kite!
+Utagawa Hiroshige, Fukoroi (https://www.metmuseum.org/art/collection/search/37222)
+
+L was once a little lark,
+Larky!
+Marky!
+Harky!
+Larky!
+In the Parky, Little Lark!
+Allen & Ginter, Meadowlark (https://www.metmuseum.org/art/collection/search/406624)
+William Home Lizars after John James Audubon (https://www.nga.gov/collection/art-object-page.73356.html)
+
+M was once a little mouse,
+Mousey
+Bousey
+Sousy
+Mousy
+In the Housy Little Mouse!
+Thomas Rowlandson, Horror (https://www.metmuseum.org/art/collection/search/687405)
+JJ Grandville, An Animal in the Moon (https://publicdomainreview.org/essay/grandville-visions-and-dreams)
+
+N was once a little needle,
+Needly
+Tweedly
+Threedly
+Needly
+Wisky-wheedly Little Needle!
+Yashima Gakutei, Lady Threading a Needle on the Verandah (https://www.metmuseum.org/art/collection/search/54933)
+
+O was once a little owl,
+Owly
+Prowly
+Howly
+Owly
+Browny fowly, Little Owl!
+Allen & Ginter, Horned Owl (https://www.metmuseum.org/art/collection/search/406687)
+
+P was once a little pump,
+Pumpy
+Slumpy
+Flumpy
+Pumpy
+Dumpy, Thumpy, Little Pump!
+Prins Alexander Upper Pumping Station (http://hdl.handle.net/10934/RM0001.COLLECT.323933)
+Hans Mangelsdorf, Hand Powered Fire Pump (https://www.nga.gov/collection/art-object-page.22316.html)
+
+Q was once a little quail,
+Quaily
+Faily
+Daily
+Quaily
+Stumpy-taily Little Quail!
+Unknown, Quail, Sparrows and Millet (https://www.metmuseum.org/art/collection/search/670903)
+John Gould and HC Richter, Excalftoria minima (Blue-breasted Quail) (https://www.nga.gov/collection/art-object-page.53538.html)
+
+R was once a little rose,
+Rosy
+Posy
+Nosy
+Rosy
+Bows-y - grows-y Little Rose!
+Paul de Longpré, Flowers: Roses (https://www.metmuseum.org/art/collection/search/337713) 
+Anonymous, Rose card (https://www.metmuseum.org/art/collection/search/778036)
+Vincent Van Gogh, Roses (https://www.metmuseum.org/art/collection/search/436534)
+
+S was once a little shrimp,
+Shrimpy
+Nimpy
+Flimpy
+Shrimpy
+Jumpy-jimpy
+Little Shrimp!
+Seki Shuko, Shrimp (Ebi) (https://www.metmuseum.org/art/collection/search/54753)
+Phillip Henry Gosse, The Aesop Prawn (https://publicdomainreview.org/essay/bringing-the-ocean-home)
+
+T was once a little thrush,
+Thrushy!
+Hushy!
+Bushy!
+Thrushy!
+Flitty-Flushy
+Little Thrush!
+Shaikh Zain al–Din, An Orange-Headed Thrush.. (https://www.metmuseum.org/art/collection/search/457758)
+
+U was once a little urn,
+Urny
+Burny
+Turny
+Urny
+Bubbly-burny, Little Urn!
+Daniel Marot, Twee grot urnen.. (http://hdl.handle.net/10934/RM0001.COLLECT.414316)
+Giuseppe Cades, Design for a Frieze with two women flanking an urn (https://www.metmuseum.org/art/collection/search/338316)
+Wall Panel with Garden Urns (https://www.metmuseum.org/art/collection/search/206818)
+Michelangelo Pergolesi, Designs for things (https://www.metmuseum.org/art/collection/search/334080)
+
+V was once a little vine,
+Viny
+Winy
+Twiny
+Viny
+Twisty-twiny, Little Vine!
+Gherardo Cibo, Callystegia soldanella, De Materia Medica (https://publicdomainreview.org/collection/watercolours-from-a-16th-century-de-materia-medica)
+
+W was once a whale,
+Whaly
+Scaly
+Shaly
+Whaly
+Tumbly-taily, Mighty Whale!
+Jami al-Tavarikh, Jonah and the Whale (https://www.metmuseum.org/art/collection/search/453683)
+Rose Campbell-Gerke, Toy Bank: Jonah and the Whale (https://www.nga.gov/collection/art-object-page.20652.html#inscription)
+
+X was once a great king Xerxes,
+Xerxy
+Perxy
+Turxy
+Xerxy
+Linxy Lurxy, Great King Xerxes!
+Konig Xerxes I, (http://hdl.handle.net/10934/RM0001.COLLECT.611900)
+
+Y was once a little yew,
+Yewdy
+Fewdy
+Crudy
+Yewdy
+Growdy, grewdy, Little Yew!
+Totoya Hokkei, Young Pine Tree and Bejeweled Broom (https://www.metmuseum.org/art/collection/search/55101)
+John Lowe - Book cover for Yew Trees of Great Britain (https://www.biodiversitylibrary.org/item/67716#page/11/mode/1up)
+C. Matthews Del & Sc, Taxus Baccata. Common Yew.  (https://www.biodiversitylibrary.org/page/48926632#page/260/mode/1up)
+
+Z was once a piece of zinc,
+Tinky
+Winky
+Blinky
+Tinky
+Tinkly Minky, Piece of Zinc!
+Spittoon (https://www.metmuseum.org/art/collection/search/447095)
+L'Illustration (https://archive.org/details/lillustrationjou09pari/page/76/mode/1up)
